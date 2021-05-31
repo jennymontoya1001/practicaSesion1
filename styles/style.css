@@ -1,0 +1,109 @@
+/*SELECTORES
+nos ayudan a definir un conjunto de funcionalidades
+a los elementos html*/
+
+/*SELECTOR UNIVERSAL*/
+/*atributo : valor*/
+*{
+    color: blue;
+}
+
+/*SELECTOR etiqueta*/
+p{
+    color: green;
+}
+
+/*SELECTOR como clase*/
+.ejemplo{
+    color: hotpink;
+}
+
+/*SELECTOR como id*/
+#ejempoloId{
+    color: indigo;
+}
+
+/*Combinación de selectores o en grupo*/
+p, .ejemplo, #ejemploId{
+    font-size: 50px;
+}
+
+/*pseudo clase como selector hover*/
+.text{
+    color: red;
+}
+
+.text:hover{
+    background-color: salmon;
+    color: white;
+}
+
+body{
+    background-image: url("/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+/*border*/
+#e1{
+    border: 5px dotted black;
+}
+
+#e2{
+    border: 5px dashed black;
+}
+
+#e3{
+    border: 5px solid black;
+}
+
+#e4{
+    border: 5px double black;
+}
+
+/*Modelo de caja*/
+#contenedor{
+    border: 5px solid red;
+}
+#contenedor ul{
+    list-style-type: none;
+    text-align: center;
+}
+#contenedor ul li{
+    display: inline-block;
+    padding: 20px;
+}
+#contenedor2{
+    border: 5px solid blue;
+    background-color: cadetblue;
+    height: 200px;
+}
+#contenedor3{
+    border: 5px solid green;
+    height: 100px; /*alto*/
+    margin: 50px 20px; /*arriba-abajo 50 px ----- derecha izquierda 20px*/
+}
+#cont1{
+    text-align: center;
+}
+
+#bloqueP{
+    border: 5px solid black;
+    display: block;
+}
+
+#bloqueP1{
+    border: 5px solid black;
+    display: inline;
+}
+
+#bloqueP2{
+    border: 5px solid black;
+    display: inline-block;
+}
+
+#bloqueP3{
+    border: 5px solid black;
+    display: none;
+}

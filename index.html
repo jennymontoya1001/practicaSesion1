@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Elementos</title>
+</head>
+
+<body>
+
+    <!--Títulos y encabezados-->
+    <h1>Soy un encabezado h1</h1>
+    <h2>Soy un encabezado h2</h2>
+    <h3>Soy un encabezado h3</h3>
+    <h4>Soy un encabezado h4</h4>
+    <h5>Soy un encabezado h5</h5>
+    <h6>Soy un encabezado h6</h6>
+
+    <!--Párrafo-->
+    <p>Este es un párrafo p</p>
+    <p>Este es otro párrafo</p>
+
+    <!--br saltos de una sola línea en un texto-->
+    <p>Si caminas solo, irás más rápido.<br>
+        Si caminas acompañado, llegarás más lejos
+    </p>
+
+    <!--Listas de Elementos-->
+    <!--<ol> listas ordenadas-->
+    <!--<ul> listas NO ordenadas-->
+    <!--<li>marcar un elemento de la lista-->
+    <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contáctenos</li>
+    </ol>
+    <h3>Lista NO ordenada</h3>
+    <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contáctenos</li>
+    </ul>
+
+    <!--División div-->
+    <div style=" border: 5px outset blue;
+    background-color: lightblue;
+    text-align: center;">
+        <h1>Soy una división</h1>
+    </div>
+
+    <!--sección-->
+    <section>
+        <p>Soy la etiqueta section y defino secciones de un documento, como
+            capítulos, encabezados, pies de página o cualquier otra sección
+            del documento</p>
+    </section>
+
+    <!--Parte superior de la web header-->
+    <header>
+        <p>Soy la etiqueta header y soy la parte superior de la web, en donde se suele
+            encontrar el logo de la misma, también puede contener algunos elementos de
+            encabezado, navegaciones, formularios, imágenes</p>
+    </header>
+
+    <!--main contenido principal del cuerpo de la página body-->
+    <main>
+        <p>Soy el main y soy el contenido principal del cuerpo o body
+            de un documento o aplicación</p>
+    </main>
+
+    <!--article agrupar-->
+    <article>
+        <p>Soy la etiqueta article y puedo agrupar contenido valioso de un sitio
+            web. Cómo párrafos, comentarios, imágenes, etc
+        </p>
+    </article>
+
+    <!--aside contenido secundario-->
+    <aside>
+        <p>Soy la etiqueta aside y represento el contenido secundario
+            de una página, me suelo ubicar en la parte derecha
+            o izquieda de la página
+        </p>
+    </aside>
+
+    <!--footer pie de página-->
+    <footer>
+        <p>Soy la etiqueta footer y soy el pie de página
+            de un documento. Me añaden información
+            del autor, datos de contacto, etc
+        </p>
+    </footer>
+
+
+    <!--a permite realizar hipervínculos con otras páginas o elementos-->
+    <a href="https://www.google.com/">Google</a>
+
+
+    <!--navbar menú de navegación-->
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+    </nav>
+
+    <!--blockquote información que se cita de otra fuente-->
+    <!--El atributo cite especifica la fuente de la información-->
+    <blockquote cite="https://www.lipsum.com/">
+        Lorem ipsum.
+    </blockquote>
+
+    <!--etiqueta cite define el título de una obra con la etiqueta-->
+    <p><cite>Nombre obra</cite> Por autor. Año</p>
+
+    <!--table-->
+    <table>
+        <thead>
+            <!--Cabecera de la tabla-->
+            <tr>
+                <!--Fila de la cabecera-->
+                <th>Nombre</th>
+                <!--columna-->
+                <th>Apellido</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--cuerpo de la tabla-->
+            <tr>
+                <!--fila-->
+                <td>Jenny</td>
+                <!--columna-->
+                <td>Montoya</td>
+                <td>5555555</td>
+            </tr>
+
+            <tr>
+                <!--fila-->
+                <td>Alexandra</td>
+                <!--columna-->
+                <td>Cortés</td>
+                <td>8888888</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--Imágenes-->
+    <img src="images/gato1.png" alt="gatito" title="Don gato">
+    <img src="https://s1.eestatic.com/2019/01/30/como/gatos-mascotas-educacion_372473213_113530343_1706x960.jpg"
+        alt="Otro gatito" title="Don gato 2">
+
+    <!--Audio-->
+    <audio src="multimedia/audio.mp3" controls></audio>
+
+    <audio controls>
+        <source src="multimedia/audio.mp3" type="audio/mp3">
+    </audio>
+
+
+    <!--Video-->
+    <video src="multimedia/Gaticos.mp4" controls> </video>
+
+    <!--Otro vídeo-->
+    <iframe width="917" height="516" src="https://www.youtube.com/embed/DzldmZvyBhQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <!--cursiva o negrita-->
+    <p><strong>Soy un párrafo en negrita con strong</strong></p>
+    <p><b>Soy un párrafo en negrota con bold</b></p>
+
+    <p><em>Soy un párrafo en cursiva con em</em></p>
+    <p><i>Soy un párrafo en cursiva con i</i></p>
+
+    <!--Details y summary especifica detalles adicionales que
+    los usuarios pueden abrir o cerrar-->
+    <details>
+        <summary>Algunos detalles</summary>
+        <p>Más información del detalle</p>
+    </details>
+
+    <h2 class="ejemplo">Soy h2</h2>
+    <h2 class="ejemplo">Soy h2</h2>
+    <h2 id="ejempoloId">Soy h2</h2>
+    <p class="ejemplo">Soy ejemplo</p>
+
+    <!--pseudo clase como selector
+    puede usar href="#top"o href="#" para vincular a la parte superior de la página actual-->
+    <a href="#" class="text">pseudo clase como selector</a>
+
+    <!--border-->
+    <h1 id="e1">Borde punteado puntos</h1>
+    <h1 id="e2">Otro borde lineas</h1>
+    <h1 id="e3">Borde sólido</h1>
+    <h1 id="e4">Borde doble</h1>
+
+    <!--Modelo de caja-->
+    <div id="contenedor">
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Conócenos</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="contenedor2">
+        <div id="contenedor3">
+            <h1 id="cont1">Una página</h1>
+        </div>
+    </div>
+
+    <!--Elementos en bloque-->
+    <p id="bloqueP">Elemento en bloque</p>
+
+    <!--Elemento en linea-->
+    <p id="bloqueP1">Elemento en linea</p>
+
+    <!--Elemento inline-block-->
+    <p id="bloqueP2">Elemento inline-block</p>
+
+    <!--Elemento oculto-->
+    <p id="bloqueP3">Elemento oculto</p>
+
+</body>
+
+</html>
